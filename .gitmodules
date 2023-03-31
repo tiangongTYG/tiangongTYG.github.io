@@ -1,0 +1,4 @@
+[submodule "assets/js"]
+	url  = https://gitee.com/bileizhen1672/tiangong-tyg.github.io
+	path = assets/js
+
