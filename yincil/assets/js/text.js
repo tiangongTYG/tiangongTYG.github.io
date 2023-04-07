@@ -4,9 +4,12 @@ if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
 let divTyping = document.getElementById('xf_type')
 let i = 0,
     timer = 0,
-    str = '此页面由原生HTML，CSS，JS开发! 本站UI由小枫原创，并且源图和代码全部开源供大家学习使用(严禁商用)。' //text
-    //本人能够能够灵活使用PS,AI,PR,AE,CAD软件的操作,熟练HTML5,CSS3,JavaScript等前端开发技术。并且在学习这些技术的过程中运营过idc行业, 通过售卖云服的过程中学到如何去维护网站及服务器。 21 年下半年有过半年的电商美工经验, 做过淘宝、 拼多多、 虾皮、 速卖通、 国际站平台店铺的装修。（ 轮播、 海报、 LOGO....）淘宝（ PC端首页, 详情）, 速卖通, 国际站平台兼容代码装修实现动态交互效果 兼容CSS3、 banner、 雪花效果、 循环渐变效果....。差不多就这些吧。
-function typing() {
+    str = '别名：银冰剌焰
+           职位：二元老
+           生日：10月5日
+           星座：天秤座
+           简介：#' //text
+    function typing() {
     if (i <= str.length) {
         divTyping.innerHTML = str.slice(0, i++) + '_'
         timer = setTimeout(typing, 150) //time
