@@ -41,7 +41,7 @@ var binft = function (r) {
             setTimeout(i, d)
     }
     var l = "",
-        o = ["大道至简,开发由我","饿了么,一起来学习吧",].map(function (r) {
+        o = ["健言懒行","懒，高深魂类玩家",].map(function (r) {
             return r + "."
         }),
         a = 2,
