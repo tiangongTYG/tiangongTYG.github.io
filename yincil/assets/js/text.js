@@ -4,10 +4,10 @@ if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
 let divTyping = document.getElementById('xf_type')
 let i = 0,
     timer = 0,
-    str = '别名：银冰刺焰
-           职位：二元老
-           生日：10月10日
-           星座：天秤座
+    str = '别名：银冰刺焰\n
+           职位：二元老\n
+           生日：10月10日\n
+           星座：天秤座\n
            简介：#' //text
     function typing() {
     if (i <= str.length) {
